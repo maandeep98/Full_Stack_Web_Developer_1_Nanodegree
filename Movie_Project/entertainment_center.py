@@ -1,5 +1,6 @@
 import media , fresh_tomatoes
 
+#defining objects
 fast_and_furious = media.Movie("Fast and Furious",
                                "The story of a family of friends who are best at driving cars",
                                r"C:\Users\Hp\Desktop\repos\Full_Stack_Web_Developer_1_Nanodegree\Movie_Project\img\ff.jpg",
@@ -25,5 +26,6 @@ iron_man = media.Movie("Sarkar 3",
                        r"C:\Users\Hp\Desktop\repos\Full_Stack_Web_Developer_1_Nanodegree\Movie_Project\img\im.jpg",
                        "https://www.youtube.com/watch?v=8hYlB38asDY")
 
+#creating an array of movies
 movies = {fast_and_furious , harry_potter , lakshya , border , sarkar_3 , iron_man}
 fresh_tomatoes.open_movies_page(movies)
