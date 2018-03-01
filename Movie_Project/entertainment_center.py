@@ -27,7 +27,7 @@ lakshya = media.Movie("Lakshya",
                       "7.9 IMDb rating",
                       "18 June 2004 (India)",
                       r"img\l.jpg",
-                      "https://www.youtube.com/watch?v=XVu5126oPqU")
+                      "https://www.youtube.com/watch?v=YoKGmYyljmc")
 
 # border: movie title, movie storyline, Poster Image path, Youtube Trailer URL
 border = media.Movie("Border",
